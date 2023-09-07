@@ -1,0 +1,175 @@
+*{
+
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+ 
+}
+
+
+header{
+
+   margin: 47px 0 100px 42px;
+
+}
+
+section{
+
+   display: inline-block;
+   margin-left: 96.83px;
+
+}
+
+
+.logo-image{
+
+   width: 595.178px;
+   height: 500.005px;
+   margin-left: 121px;
+   display: inline-block;
+
+}
+
+.link-topo{
+
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.875px;
+   font-size: 14px;
+   color: #17233D;
+   text-align: center;
+   margin-left: 32px;
+   cursor: pointer;
+
+}
+
+.botao-topo{
+
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 1px;
+   font-size: 16px;
+   color: #FFF;
+   margin-left: 32px;
+   cursor: pointer;
+
+   border-radius: 6px;
+   border: 1px solid #4CB538;
+   background: #6FBF44;
+   width: 124px;
+   height: 51px;
+
+}
+
+h1{
+
+   letter-spacing: 0.596px;
+   line-height: 82px;
+   font-weight: 700;
+   font-size: 62px;
+   color: #161A49;
+   width: 582px;
+
+}
+
+p{
+
+   letter-spacing: 0.5px;
+   line-height: 33px;
+   font-weight: 400;
+   font-size: 18px;
+   color: #4B505A;
+   width: 493px;
+   margin-top: 47px;
+   margin-bottom: 55px;
+
+}
+
+a{
+
+   font-weight: 500;
+   line-height: normal;
+   letter-spacing: 1px;
+   color: #6FBF44;
+   font-size: 18px;
+   cursor: pointer;
+
+}
+
+@media screen and (max-width: 600px){
+
+   .logo-image{
+
+      max-width: 100%;
+      height: auto;
+      position: absolute;
+      bottom: 1px;
+      left: 2%;
+      display: block;
+      margin: 0 auto;
+      padding: 20px;
+
+
+   }
+
+   .link-topo{
+      display: none;
+   }
+
+   .botao-topo{
+
+         position: absolute;
+         top: 1%;
+         right: 2%;
+   }
+
+   section{
+      margin: 0 auto;
+      padding: 0;
+      display: block;
+
+   }
+
+
+   h1{
+
+      letter-spacing: 0.596px;
+      line-height: 30px; 
+      font-size: 30px;
+      text-align: center;
+      width: auto;
+      margin: 50px 57px 0 57px;
+   }
+
+   p{
+
+      line-height: 33px;
+      letter-spacing: 0.5px;
+      font-size: 18px;
+      text-align: center;
+      width: auto;
+      margin: 20px 43px 20px 43px;
+   }
+
+   a{
+
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+   }
+}
+
+
+@media screen and (max-width: 450px){
+
+   section{
+
+      position: relative;
+      bottom: 30px;
+   }
+
+}
+
+      
+     
